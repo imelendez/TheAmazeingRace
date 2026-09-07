@@ -329,7 +329,7 @@ class RoamingRalphDemo(ShowBase):
                 self.shotList[self.shotCount].lpivot.setPos(self.ralph.getPos())
                 self.shotList[self.shotCount].lpivot.setZ(self.ralph.getZ() + .5)
                 self.shotList[self.shotCount].lpivot.setX(self.ralph.getX() - .25)
-                print self.ralph.getPos()
+                print(self.ralph.getPos())
                 
 
                 #self.shotList.append(rShot)

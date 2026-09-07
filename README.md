@@ -9,7 +9,7 @@ and the portal refuses you until you've earned it.
 
 ![Title screen](docs/screenshots/title.png)
 
-**[▶ Play the 2D browser port](https://claude.ai/code/artifact/6c30dc2d-4c6e-419d-87fe-32adcf744178)** —
+**[▶ Play the 2D browser port](https://imelendez.github.io/amazing-race-web/)** —
 no install, runs on the original's real maze.
 
 ---
@@ -35,7 +35,7 @@ the game's systems actually work.
 
 ## The browser port
 
-The 2D rebuild lives in its own repo. Its maze isn't a redrawing — it was extracted
+The 2D rebuild lives in [its own repo](https://github.com/imelendez/amazing-race-web). Its maze isn't a redrawing — it was extracted
 straight out of `models/solidfloormazefinal.egg` by ray-casting the mesh in Panda3D,
 so the floorplan you play is this game's floorplan, down to the cell.
 

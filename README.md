@@ -39,9 +39,9 @@ The 2D rebuild lives in [its own repo](https://github.com/imelendez/amazing-race
 straight out of `models/solidfloormazefinal.egg` by ray-casting the mesh in Panda3D,
 so the floorplan you play is this game's floorplan, down to the cell.
 
-There's also a [3D spike](https://github.com/imelendez/amazing-race-3d) that converts
-this project's `.egg` art — including Ralph's 48-joint rig and both animation clips —
-to glTF and renders it in Three.js.
+There's also a **[playable 3D version](https://imelendez.github.io/amazing-race-3d/)**
+that converts this project's `.egg` art — including Ralph's 48-joint rig and both
+animation clips — to glTF and renders it in Three.js.
 
 ## Layout
 

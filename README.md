@@ -33,11 +33,15 @@ Verified on Python 3.9 + Panda3D 1.10.16, macOS (Apple Silicon).
 [PHASE1_NOTES.md](PHASE1_NOTES.md) has the full breakdown of what broke and how
 the game's systems actually work.
 
-## The browser port
+## The browser ports
 
 The 2D rebuild lives in [its own repo](https://github.com/imelendez/amazing-race-web). Its maze isn't a redrawing — it was extracted
 straight out of `models/solidfloormazefinal.egg` by ray-casting the mesh in Panda3D,
 so the floorplan you play is this game's floorplan, down to the cell.
+
+There's also a [3D spike](https://github.com/imelendez/amazing-race-3d) that converts
+this project's `.egg` art — including Ralph's 48-joint rig and both animation clips —
+to glTF and renders it in Three.js.
 
 ## Layout
 

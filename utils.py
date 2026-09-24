@@ -16,7 +16,7 @@ def incBar(self,arg):
     bar['value'] = arg
 
 def buttonClickedOn(self, obj, obj2, obj3, flag):
-    print "hello"
+    print("hello")
     obj.destroy()
     obj2.destroy()
     obj3.destroy()
@@ -29,9 +29,9 @@ def buttonClickedOn(self, obj, obj2, obj3, flag):
     turnofstartbutton(flag, self.helpOn)
 
 def buttonClickedOff(self, obj, flag):
-    print "hello"
+    print("hello")
     self.imageObject = OnscreenImage(image = 'models/introscreen.jpg', pos = (0, -0.3, 0.02), scale=1)
-    print "OFF OFF OFF"
+    print("OFF OFF OFF")
 
 def updateHealthBar(hCount, healthBar):
     healthBar['value'] = hCount
